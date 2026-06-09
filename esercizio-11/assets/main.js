@@ -1,7 +1,10 @@
 console.log("js caricato");
 
-const test = [true, true, true, false, true];
 
-const tuttiSuperati = test.every(t => t === true);
+const prenotazioni = [
+    "confermata", "in attesa", "annullata", "confermata"
+];
 
-console.log(tuttiSuperati); 
+const prima = prenotazioni.find(p => p === "annullata");
+
+console.log(prima);

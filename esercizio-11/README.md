@@ -1,8 +1,8 @@
 # Esercizio
 
-data una lista di valutazioni (1-5 stelle), trova solo le recensioni con più di 4 stelle
+data una lista di stati di prenotazione ("confermata", "annullata", "in attesa"), trova la prima prenotazione annullata
 
 ## Ragionamento
 
-- Devo controllare che OGNI elemento sia true
-- Se almeno uno è false, il risultato è false => every.
+- Devo trovare il PRIMO elemento con un valore specifico 
+- Appena trovo il primo, mi fermo => find
