@@ -1,9 +1,7 @@
 console.log("js caricato");
 
-const prenotazioni = [
-    "confermata", "in attesa", "annullata", "confermata"
-];
+const valutazioni = [3, 5, 2, 4, 5, 1, 5];
 
-const prima = prenotazioni.find(p => p === "annullata");
+const topRecensioni = valutazioni.filter(stelle => stelle > 4);
 
-console.log(prima); 
+console.log(topRecensioni); 
